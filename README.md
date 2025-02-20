@@ -38,7 +38,7 @@ This project provides a Python 3 library for interfacing with DS18B20 temperatur
 1. **Clone the repository:**
     ```bash
     git clone https://github.com/electromake/usb-thermometer-python.git
-    cd usb-thermometer
+    cd usb-thermometer-python
     ```
 
 2. **Install required dependencies:**
