@@ -10,8 +10,8 @@ from typing import List, Tuple
 
 import serial
 
-from exceptions import *
-from utils import *
+from .exceptions import *
+from .utils import *
 
 
 class DS18B20:

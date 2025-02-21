@@ -10,9 +10,9 @@ import struct
 import unittest
 from typing import List, Tuple
 
-from sensors import DS18B20
-from utils import *
-from thermometer import *
+from electromake.usb_thermometer.sensors import DS18B20
+from electromake.usb_thermometer.utils import *
+from electromake.usb_thermometer.thermometer import *
 
 
 class TestUSBThermometer(unittest.TestCase):

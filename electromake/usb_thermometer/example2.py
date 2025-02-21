@@ -14,8 +14,8 @@ from datetime import datetime
 from sqlalchemy import create_engine, Column, Integer, String, Float, DateTime, ForeignKey
 from sqlalchemy.orm import sessionmaker, declarative_base, relationship
 
-from thermometer import USBThermometer  # Adjust import as necessary
-from sensors import DS18B20
+from .thermometer import USBThermometer  # Adjust import as necessary
+from .sensors import DS18B20
 
 # Define the SQLAlchemy ORM models
 Base = declarative_base()

@@ -8,8 +8,8 @@ and finally reads back the scratchpad values to verify the configuration.
 """
 
 import time
-from sensors import DS18B20
-from thermometer import USBThermometer  # Adjust import as necessary
+from .sensors import DS18B20
+from .thermometer import USBThermometer  # Adjust import as necessary
 
 def main() -> None:
     port: str = "/dev/ttyUSB0"  # Adjust the port for your system

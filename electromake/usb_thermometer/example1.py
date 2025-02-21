@@ -6,7 +6,7 @@ Example 1: Discover sensors and continuously read temperatures until a key is pr
 """
 
 import time
-from thermometer import USBThermometer  # Adjust import if needed
+from .thermometer import USBThermometer  # Adjust import if needed
 
 def main() -> None:
     port: str = "/dev/ttyUSB0"  # Adjust the port for your system

@@ -9,9 +9,9 @@ import time
 
 import serial
 
-from exceptions import *
-from sensors import DS18B20
-from utils import *
+from .exceptions import *
+from .sensors import DS18B20
+from .utils import *
 from typing import List, Tuple
 
 
@@ -386,8 +386,10 @@ class USBThermometer:
 
 if __name__ == "__main__":
     usb_therm = USBThermometer("/dev/ttyUSB0")
-    # usb_therm.
-    # usb_therm.discover_ROMs(alarm=False)
+    usb_therm.discover_ROMs(alarm=False)
+    usb_therm.set_precision(0, DS18B20.CR_12BIT)
+    
+    
     # usb_therm.set_alarm(0, 125, -50)
     # usb_therm.set_alarm(1, 125, -50)
     # usb_therm.copy_scratchpad(0)
