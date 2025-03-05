@@ -1,4 +1,6 @@
 # USB Thermometer Python library
+![alt text](https://electromake.pl/wp-content/uploads/2024/12/USB_Thermometer_3D_model_rendering_top-1.png)
+
 ## Overview
 This project provides a Python 3 library for interfacing with DS18B20 temperature sensors via a USB-based 1-Wire interface. The library implements the 1-Wire protocol over a serial port, allowing you to discover connected sensors, read temperature measurements, configure sensor settings (precision, alarm thresholds), and perform low-level bit manipulations required for proper communication with the sensors.
 
